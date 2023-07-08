@@ -30,10 +30,10 @@ public class CategoryID extends Identifier {
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(final Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        CategoryID that = (CategoryID) o;
+        final CategoryID that = (CategoryID) o;
         return Objects.equals(getValue(), that.getValue());
     }
 
