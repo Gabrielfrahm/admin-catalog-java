@@ -1,5 +1,5 @@
 package com.admin.catalog.application;
 
 public abstract class UnitUseCase<INT> {
-    public abstract void execute();
+    public abstract void execute(String anId);
 }
