@@ -1,0 +1,8 @@
+mysql:
+  username: root
+  password: 123456
+  schema: catalog
+  url: localhost:3306
+
+server:
+  port: 3333
