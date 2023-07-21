@@ -1,10 +1,9 @@
 package com.admin.catalog.infra.category;
 
 import com.admin.catalog.domain.category.Category;
-import com.admin.catalog.domain.category.CategoryGateway;
 import com.admin.catalog.domain.category.CategoryID;
 import com.admin.catalog.domain.category.CategorySearchQuery;
-import com.admin.catalog.infra.MySQLGatewayTest;
+import com.admin.catalog.MySQLGatewayTest;
 import com.admin.catalog.infra.category.persistence.CategoryJpaEntity;
 import com.admin.catalog.infra.category.persistence.CategoryRepository;
 import org.junit.jupiter.api.Assertions;
