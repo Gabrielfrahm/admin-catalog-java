@@ -18,7 +18,7 @@ import static org.mockito.Mockito.times;
 
 
 @IntegrationTest
-public class UpdateCategoryUseCaseTest {
+public class UpdateCategoryUseCaseIT {
     @Autowired
 
     private UpdateCategoryUseCase useCase;
